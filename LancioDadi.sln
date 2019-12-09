@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.138
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DadiWpf", "DadiWpf\DadiWpf.csproj", "{406324B9-6AEF-4C4D-820B-1B900C674604}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{406324B9-6AEF-4C4D-820B-1B900C674604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406324B9-6AEF-4C4D-820B-1B900C674604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406324B9-6AEF-4C4D-820B-1B900C674604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406324B9-6AEF-4C4D-820B-1B900C674604}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {098A68E5-485D-43BF-B0A4-91E9E5843CC6}
+	EndGlobalSection
+EndGlobal

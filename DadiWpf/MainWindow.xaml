@@ -1,0 +1,29 @@
+﻿<Window x:Class="DadiWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DadiWpf"
+        mc:Ignorable="d"
+        Title="Lancio dei dadi" Height="532.5" Width="603.5">
+    <Grid Margin="0,0,0,1" HorizontalAlignment="Left" Width="606">
+        <Grid.Background>
+            <ImageBrush ImageSource="dadi.jpg"/>
+        </Grid.Background>
+        <Button x:Name="btn_lancia" Content="Tira i dadi" HorizontalAlignment="Left" Margin="380,36,0,0" VerticalAlignment="Top" Width="160" Height="88" Click="btn_lancia_Click" Background="{x:Null}" RenderTransformOrigin="0.5,0.5" BorderBrush="{x:Null}" Foreground="Black" FontWeight="Bold" FontSize="24" FontFamily="Comic Sans MS" Cursor="Hand" KeyDown="btn_lancia_KeyDown">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-1.405"/>
+                    <RotateTransform Angle="-0.593"/>
+                    <TranslateTransform X="1.911" Y="0.726"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox x:Name="txt_totale" HorizontalAlignment="Left" Height="58" Margin="430,392,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" IsReadOnly="False"/>
+        <Image x:Name="img1" HorizontalAlignment="Left" Height="110" Margin="36,79,0,0" VerticalAlignment="Top" Width="116"/>
+        <Image x:Name="img2" HorizontalAlignment="Left" Height="110" Margin="194,79,0,0" VerticalAlignment="Top" Width="116"/>
+
+    </Grid>
+</Window>
+
